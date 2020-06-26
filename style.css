@@ -12,7 +12,7 @@ body {
 }
 
 a,
-a:visited  {
+a:visited {
   color: goldenrod;
 }
 
@@ -21,9 +21,9 @@ a:visited  {
 }
 
 .button > .over {
-  text-decoration:overline;
+  text-decoration: overline;
   display: inline-block;
-  position:relative;
+  position: relative;
   top: 3px;
   left: -4px;
 }
@@ -36,7 +36,6 @@ a:visited  {
   border-radius: 5%;
   border: 3px solid black;
   box-shadow: 5px 5px 5px 3px gray;
-  
 }
 
 .calculator button {
@@ -71,7 +70,7 @@ a:visited  {
   transform: scale(0.9);
 }
 
- #screen{
+#screen {
   background: darkgray;
   border: 3px solid black;
   box-shadow: 3px 3px 3px 3px gray;
@@ -85,16 +84,11 @@ a:visited  {
   overflow: auto;
   overflow-wrap: break-word;
   font-size: 60px;
-
 }
-
-    
-
 
 #clean {
   background: salmon;
 }
-
 
 .calculator__row1,
 .calculator__row2,
@@ -103,15 +97,15 @@ a:visited  {
 .calculator__row5 {
   display: flex;
   margin: 0 auto;
-     max-width: 80%;
+  max-width: 80%;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Libre Barcode 128 Text', cursive;
+  font-family: "Libre Barcode 128 Text", cursive;
 }
 
 .calculator__row5 {
   margin-bottom: 3%;
-} 
+}
 
 .footer {
   /* margin-top: 2%;
